@@ -4,7 +4,7 @@ Plugin Name: AJAX Quick Subscribe
 Plugin URI: http://noveld.com/wp-plugins/quick-subscribe
 Description: Allows visitor to quickly register to your blog using only an email address: based on 'Quick Subscribe' by Leo Germani, with added AJAX functionality for smoother, more modern operation.
 Author: Dylan Wood
-Version: 2.0
+Version: 3.0
 Author URI: http://noveld.com
 
     AJAX Quick Subscribe is released under the GNU General Public License (GPL)
