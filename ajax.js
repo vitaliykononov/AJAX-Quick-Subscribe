@@ -1,7 +1,7 @@
 function submitQuickSubscribe(source, container){
    jQuery('.'+container).hide();
    jQuery.post(
-   // see tip #1 for how we declare global javascript variables
+   // ajaxURL will be added into wp_head();
    ajaxurl,
    {
    // here we declare the parameters to send along with the request
@@ -16,15 +16,14 @@ function submitQuickSubscribe(source, container){
    },
    function( response ) {
       jQuery('.'+container).html(response).fadeIn(1000);
-   }
-   );
+   });
 }
 
 function checkForEnter (e, source, container) {
      if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)){
          submitQuickSubscribe(source, container);
          return false;
-     } 
+     }
 }
 
 function fadeSubmitIn(elName){
