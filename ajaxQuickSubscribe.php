@@ -261,6 +261,27 @@ function quicksubscribe_admin_page() {
         <table class="form-table">
             <tbody>
                 <tr>
+                    <th><strong>Using: </strong></th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Shortcode</th>
+                    <td><input type="text" readonly value="[quicksubscribe]" class="regular-text code" /></td>
+                </tr>
+                <tr>
+                    <th>Function in template</th>
+                    <td><input type="text" readonly value="&lt;php quick_subscribe_form(); ?&gt;" class="regular-text code" /></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+                <tr>
+            </tbody>
+        </table>
+        <table class="form-table">
+            <tbody>
+                <tr>
                     <th><label for="button_qs">Display submit button after text box (otherwise user must press enter to subscribe)</label></th>
                     <td><input type="checkbox" name="button_qs" id="button_qs" value="1" <?php if($op_button) echo " checked ";?>></td>
                 </tr>
