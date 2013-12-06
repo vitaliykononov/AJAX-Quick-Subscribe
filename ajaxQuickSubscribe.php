@@ -385,7 +385,7 @@ function quick_subscribe_get_form($message, $source, $containerDiv, $userEmail =
    }
    else if($op_button){
       //display button
-      $output .= "<input type='button' value='$op_label' id='".$inputPrefix."_qsSubmit' class='".$input_prefix."_qsSubmit' onClick='submitQuickSubscribe(\"$source\", \"$containerDiv\");'>";
+      $output .= "<input type='button' value='$op_label' id='".$input_prefix."_qsSubmit' class='".$input_prefix."_qsSubmit' onClick='submitQuickSubscribe(\"$source\", \"$containerDiv\");'>";
    }
     $output .= "</form>";
 
